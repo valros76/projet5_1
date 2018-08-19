@@ -8,16 +8,20 @@
     <title><?= $title;?></title>
 </head>
 <body>
-    <header id="headHome">
-        <?= $header;?>
-    </header>
+    
+        <header id="headHome">
+            <?= $header;?>
+        </header>
 
-    <section id="contentHome">
-        <?= $content;?>
-    </section>
+        <div id="containerContent">
+            <section id="contentHome">
+                <?= $content;?>
+            </section>
+        </div>
 
-    <footer id="footHome">
-        <?= $footer;?>
-    </footer>
+        <footer id="footHome">
+            <?= $footer;?>
+        </footer>
+    
 </body>
 </html>
