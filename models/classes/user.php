@@ -52,4 +52,13 @@ class User{
         $this->_email = $email;
     }
 
+    public function nomValide(){
+        return !empty($this->_pseudo);
+    }
+
+    public function emailValide(){
+        return !empty($this->_email);
+    }
+
+
 }?>

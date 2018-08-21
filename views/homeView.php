@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="views/pages/connexion.php">Se connecter</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="views/pages/inscription.php">S\'inscrire</a></li>
             </ul>
         </nav>
     ';

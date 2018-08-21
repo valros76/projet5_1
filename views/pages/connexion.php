@@ -15,6 +15,12 @@ session_start();
     <div id="containerConnect">
         <header id="headConnect">
             <h1>Page de connexion</h1>
+            <nav>
+                <ul>
+                    <li><a href="views/pages/connexion.php">Se connecter</a></li>
+                    <li><a href="inscription.php">S'inscrire</a></li>
+                </ul>
+            </nav>
             <p>
             Veuillez vous connecter pour avoir accès à l'intégralité du site.<br/>
             Si vous n'avez pas encore de compte, un lien vers la page d'inscription est disponible dans le menu.
@@ -23,7 +29,7 @@ session_start();
 
         <section>
             <article>
-                <form method="post">
+                <form action="../../models/connect.php" method="post">
                     <p>
                         <label for="pseudo">Pseudo</label>
                         <input type="text" name="pseudo" required/>

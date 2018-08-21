@@ -17,7 +17,7 @@ class UsersManager{
         $req->execute();
 
         $user->hydrate([
-            'id' => $this->_bdd->lastInsertId();
+            'id' => $this->_bdd->lastInsertId()
         ]);
     }
 
