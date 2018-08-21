@@ -12,7 +12,7 @@
         <h1>Home</h1>
         <nav>
             <ul>
-                <li><a href="">Se connecter</a></li>
+                <li><a href="views/pages/connexion.php">Se connecter</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
